@@ -40,7 +40,24 @@
 
 }
 ###issue#3二位数组查找
+  在一个二维数组中，每一行都按照从左到右递增的顺序排序，每一列都按照从上到下递增的顺序排列。请完成一个函数，输入这样一个数组和一个整数，判断数组中是否含有该整数。  
+	public boolean getTarget(int[] args,int target){   
+	  int row=args.length;   
+	  int column=args[0][].length;  
+	  int i=0  
+	  while(row>=0&&i<columm){     
+		if(args[row][i]>target){  
+			row--;   
+}  
+		else if(args[row][i]<target) {  
+		   i++;   
+}  
+        else  
+		   return true;
 
+}  
+           return false;  
+}
 
 
 
